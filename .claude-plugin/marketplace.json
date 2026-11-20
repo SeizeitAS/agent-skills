@@ -1,0 +1,13 @@
+{
+  "name": "seizeit",
+  "owner": { "name": "Seize it AS" },
+  "description": "Agent skills from Seize it AS.",
+  "plugins": [
+    {
+      "name": "seizeit-skills",
+      "source": "./",
+      "description": "Agent skills for zero-knowledge compliance on Midnight, price oracles and crypto bookkeeping.",
+      "category": "engineering"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Agent skills from Seize it AS
+Copyright 2026 Seize it AS
+
+Third-party material
+
+- skills/vendored/wizard/ and skills/vendored/domain-modeling/ are copied unchanged from
+  https://github.com/mattpocock/skills at commit abeeaf95660ba9e8b7c753eb38f441ca707a8823
+  (Copyright (c) 2026 Matt Pocock, MIT License, see skills/vendored/LICENSE-mattpocock-skills).
+- The layout of this repository (skill buckets, a Claude Code plugin manifest that lists only
+  promoted skills) follows the same repository.

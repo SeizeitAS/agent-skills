@@ -1,0 +1,9 @@
+{
+  "name": "seizeit-skills",
+  "version": "0.1.0",
+  "description": "Agent skills from Seize it AS for zero-knowledge compliance on Midnight, price oracles and crypto bookkeeping: honest status, secret hygiene, Compact toolchain and network runs.",
+  "author": { "name": "Seize it AS" },
+  "repository": "https://github.com/SeizeitAS/agent-skills",
+  "keywords": ["midnight", "compact", "zero-knowledge", "compliance", "mica", "aml"],
+  "skills": []
+}

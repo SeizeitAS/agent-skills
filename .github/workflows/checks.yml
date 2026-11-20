@@ -1,0 +1,18 @@
+name: checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Secret scan of all tracked files
+        run: bash skills/process/secret-hygiene/scripts/scan.sh --all
+      - name: Behaviour tests
+        run: bash evals/run-all.sh
