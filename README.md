@@ -20,7 +20,7 @@ and has been used in at least two real sessions.
 | `wizard` | `vendored` | Copied unchanged from mattpocock/skills (MIT) |
 | `domain-modeling` | `vendored` | Copied unchanged from mattpocock/skills (MIT) |
 
-The full plan and build order are in [docs/PLAN.md](docs/PLAN.md) and the work items are in [docs/SCRUM.md](docs/SCRUM.md).
+The full plan and build order are in [docs/PLAN.md](docs/PLAN.md). Work items are [GitHub issues](https://github.com/SeizeitAS/agent-skills/issues) titled `SK-n`.
 
 ## Layout
 ```
@@ -46,5 +46,5 @@ bash evals/run-all.sh
 ```
 
 ## License
-Not chosen yet. Until it is, no license is granted for our own material. The vendored skills are under
-the MIT License (`skills/vendored/LICENSE-mattpocock-skills`, see `NOTICE`).
+Apache License 2.0 (`LICENSE`). The vendored skills keep their MIT License
+(`skills/vendored/LICENSE-mattpocock-skills`, see `NOTICE`).

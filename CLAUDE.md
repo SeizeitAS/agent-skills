@@ -3,7 +3,7 @@
 ## What this is
 Claude Code skills for Seize it AS (Trondheim). Sibling repositories that the skills come from:
 `SeizeitAS/Compliance-Engine` (public), `SeizeitAS/assetprice` (private), `SeizeitAS/business20-kryptoforvaltning`
-(private, proprietary). The plan is in `docs/PLAN.md` and the work items are in `docs/SCRUM.md` (SK-n).
+(private, proprietary). The plan is in `docs/PLAN.md`. Work items are GitHub issues titled `SK-n` (map in `docs/SCRUM.md`); open a new item as an issue, not as a table row.
 
 ## Rules
 - **This repository is public.** Run `skills/process/secret-hygiene/scripts/scan.sh --unpushed` before
@@ -17,7 +17,7 @@ Claude Code skills for Seize it AS (Trondheim). Sibling repositories that the sk
   commit and record the commit in `NOTICE`.
 - A skill is promoted (listed in `.claude-plugin/plugin.json`) only once it has tests in `evals/<skill>/`
   and has been used in at least two real sessions. Bump `version` in `plugin.json` with every release.
-- Work items in `docs/SCRUM.md`. Do not invent hours.
+- Work items are GitHub issues (`SK-n`). Do not invent hours.
 
 ## Writing a skill
 - `SKILL.md` under about 100 lines. Frontmatter `name` matches the folder name. The `description` says what

@@ -1,6 +1,8 @@
 Agent skills from Seize it AS
 Copyright 2026 Seize it AS
 
+This product is licensed under the Apache License, Version 2.0 (see the LICENSE file).
+
 Third-party material
 
 - skills/vendored/wizard/ and skills/vendored/domain-modeling/ are copied unchanged from
